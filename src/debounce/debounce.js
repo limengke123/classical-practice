@@ -1,5 +1,8 @@
 /**
- * 防抖
+ * debounce (防抖)
+ *
+ * 疯狂地触发设置在防抖时间内的被防抖的函数,只会触发一次
+ *
  * @param {Function} fn 需要被防抖的函数
  * @param {Number} wait 防抖时间
  * @param {Boolean} immediate 是否立即执行
@@ -44,7 +47,7 @@ function debounce (fn, wait, immediate) {
         }
     }
 
-    return function () {
+    const debounced = function () {
         context = this
         args = arguments
         /**
@@ -65,4 +68,6 @@ function debounce (fn, wait, immediate) {
         }
         return result
     }
+
+    return debounced
 }

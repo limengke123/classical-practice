@@ -6,6 +6,7 @@
 
 ## todo-list
 
-- [X] Promise
-- [X] BST(搜索二叉树)
+- [X] Promise(`/promise`)
+- [X] BST(搜索二叉树)(`/binarySearchTree`)
 - [] 快速排序
+- [] 防抖与节流(`/debounce`)

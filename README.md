@@ -8,5 +8,6 @@
 
 - [X] Promise(`/promise`)
 - [X] BST(搜索二叉树)(`/binarySearchTree`)
-- [] 快速排序
-- [] 防抖与节流(`/debounce`)
+- [ ] 快速排序
+- [X] 防抖与节流(`/debounce`)
+- [X] call、apply、bind(`/bind`)

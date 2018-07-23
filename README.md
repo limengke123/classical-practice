@@ -6,8 +6,14 @@
 
 ## todo-list
 
+常用实现：
+
 - [X] Promise(`/promise`)
-- [X] BST(搜索二叉树)(`/binarySearchTree`)
-- [ ] 快速排序
 - [X] 防抖与节流(`/debounce`)
 - [X] call、apply、bind(`/bind`)
+
+算法：
+
+- [ ] 二分搜索 (`/binarySearch`)
+- [X] BST(搜索二叉树)(`/binarySearchTree`)
+- [ ] 排序 (`/sort`)

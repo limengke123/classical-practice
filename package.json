@@ -1,0 +1,24 @@
+{
+  "name": "classical-practice",
+  "version": "1.0.0",
+  "description": "前端还是有很多轮子以及一些经典算法可以学习，这个仓库就是专门记录这些经典实现。",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/limengke123/classical-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/limengke123/classical-practice/issues"
+  },
+  "homepage": "https://github.com/limengke123/classical-practice#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}

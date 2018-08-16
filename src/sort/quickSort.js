@@ -1,6 +1,5 @@
-const swap = (arr, a, b) => {
-    [arr[a], arr[b]] = [arr[b], arr[a]]
-}
+const util = require('./util')
+const {swap} = util
 
 const compare = (a, b) => a === b
     ? 0
@@ -56,4 +55,4 @@ const quickSort = (arr)=> {
     return quick(arr, 0, arr.length - 1)
 }
 
-
+module.exports = quickSort

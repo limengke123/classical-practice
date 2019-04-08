@@ -1,5 +1,13 @@
 # classical-practice
 
+## 改用java实现数据结构
+
+参考[这个仓库](https://github.com/liuyubobobo/Play-with-Data-Structures)练习用java实现常见的数据结构。
+
+以下是原介绍
+
+---
+
 ## 缘由
 
 前端还是有很多轮子以及一些经典算法可以学习，这个仓库就是专门记录这些经典实现。

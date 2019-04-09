@@ -1,4 +1,4 @@
-package com.lmk.Arrays;
+package com.lmk.array;
 
 
 public class Array<E> implements ArrayInterface<E> {
@@ -147,7 +147,7 @@ public class Array<E> implements ArrayInterface<E> {
     @Override
     public String toString() {
         StringBuilder res = new StringBuilder();
-        res.append(String.format("Arrays size = %d, capacity = %d\n", size, data.length));
+        res.append(String.format("array size = %d, capacity = %d\n", size, data.length));
         res.append('[');
         for (int i = 0; i < size; i++) {
             res.append(data[i]);

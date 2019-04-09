@@ -1,4 +1,4 @@
-package com.lmk.Arrays;
+package com.lmk.array;
 
 public interface ArrayInterface<E> {
 

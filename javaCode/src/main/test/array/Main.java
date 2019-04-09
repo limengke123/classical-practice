@@ -1,6 +1,7 @@
-package Arrays;
+package array;
+import com.lmk.array.Array;
 
-public class Test {
+public class Main {
 
     public static void main (String[] args) {
         Array<Integer> arr = new Array<Integer>();
@@ -27,6 +28,6 @@ public class Test {
             arr.removeFirst();
             System.out.println(arr);
         }
-
     }
 }
+

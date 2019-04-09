@@ -1,10 +1,11 @@
 package array;
 import com.lmk.array.Array;
+import com.lmk.array.ArrayImpl;
 
 public class Main {
 
     public static void main (String[] args) {
-        Array<Integer> arr = new Array<Integer>();
+        Array<Integer> arr = new ArrayImpl<>();
         for(int i = 0 ; i < 10 ; i ++)
             arr.addLast(i);
         System.out.println(arr);

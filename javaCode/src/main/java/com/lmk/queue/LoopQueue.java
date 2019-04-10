@@ -62,11 +62,13 @@ public class LoopQueue<E> implements Queue<E> {
     }
 
     private void resize (int newCapacity) {
-        E[] newData = (E[]) new Object[newCapacity];
-        for (int i = front; i != tail; i = (i + 1) % data.length) {
-            newData[i] = data[i];
+        E[] newData = (E[]) new Object[newCapacity + 1];
+        for(int i = 0; i < size; i ++) {
+            newData[i] = data[(front + i) % data.length];
         }
         data = newData;
+        front = 0;
+        tail = size;
     }
 
     @Override

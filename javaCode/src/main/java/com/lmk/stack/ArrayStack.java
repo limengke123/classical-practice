@@ -7,11 +7,11 @@ public class ArrayStack<E> implements Stack<E> {
 
     private Array<E> array;
 
-    ArrayStack(int capacity) {
+    public ArrayStack(int capacity) {
         array = new ArrayImpl<>(capacity);
     }
 
-    ArrayStack() {
+    public ArrayStack() {
         array = new ArrayImpl<>();
     }
 
